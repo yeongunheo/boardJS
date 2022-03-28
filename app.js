@@ -11,8 +11,6 @@ var users = require('./routes/users');
 var app = express();
 
 // TODO: 배포전 삭제 임시변수
-var aws_access_key_id = ***REMOVED***
-var aws_secret_access_key=***REMOVED***
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
